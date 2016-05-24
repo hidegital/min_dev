@@ -1,7 +1,7 @@
 const paths = {
 	js:         'src/js/*.js',
 	jade:       'src/jade/*.jade',
-	jade_watch: 'src/jade/**/*.jade',
+	jade_watch: ['src/jade/*.jade','src/jade/**/*.jade'],
 	stylus:       'src/stylus/*.styl',
 	stylus_watch: ['src/stylus/*.styl','src/stylus/**/*.styl'],
 	dist:       'dist/**/*',
@@ -12,6 +12,7 @@ const paths = {
 };
 
 export default paths;
+
 
 
 
